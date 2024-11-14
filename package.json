@@ -1,0 +1,12 @@
+{
+  "name": "po_demo",
+  "type": "module",
+  "private": "true",
+  "scripts": {
+    "wdio": "wdio run ./src/config/wdio.conf.js"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^9.2.12",
+    "@wdio/mocha-framework": "^9.2.8"
+  }
+}
